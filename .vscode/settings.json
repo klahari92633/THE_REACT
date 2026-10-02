@@ -1,0 +1,7 @@
+{
+    "editor.parameterHints.enabled": false,
+    "editor.parameterHints.triggerCharacters": [],
+    "github.copilot.enable": {
+        "*": false
+    }
+}
