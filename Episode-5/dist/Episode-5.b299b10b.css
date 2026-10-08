@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  display: flex;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.logo-container img {
+  object-fit: contain;
+  width: 100px;
+  height: 70px;
+}
+
+.nav-items ul {
+  gap: 35px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items li {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.body {
+  padding: 30px 50px;
+}
+
+.search-box {
+  width: 400px;
+  margin: 0 auto 30px;
+  position: relative;
+}
+
+.search-box input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  font-size: 16px;
+}
+
+.search-icon {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+.restaurant-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  display: flex;
+}
+
+.restaurant-card {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 260px;
+  transition: all .2s;
+  overflow: hidden;
+  box-shadow: 0 2px 10px #0000001a;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.03);
+}
+
+.restaurant-logo {
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+}
+
+.restaurant-details {
+  padding: 15px;
+}
+
+.restaurant-name {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.esa-rating {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.esa-rating h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rating {
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
+
+.rating-logo {
+  color: green;
+  font-size: 18px;
+}
+
+.cousine {
+  color: #666;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.location {
+  color: #777;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #222;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.footer span {
+  margin: 0 5px;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer strong {
+  margin-left: 10px;
+}
+
+.footer strong span {
+  color: orange;
+}
+
+.filter {
+  margin: 20px 0;
+}
+
+.filter-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff5200;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filter-btn:hover {
+  background-color: #e04800;
+}
+/*# sourceMappingURL=Episode-5.b299b10b.css.map */
