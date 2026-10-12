@@ -1,0 +1,26 @@
+.shimmer-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.shimmer-card {
+  background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 20%, #f5f5f5 40%, #f0f0f0 100%) 0 0 / 800px 300px;
+  border-radius: 12px;
+  width: 220px;
+  height: 300px;
+  animation: 1.5s linear infinite shimmer;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -800px 0;
+  }
+
+  100% {
+    background-position: 800px 0;
+  }
+}
+/*# sourceMappingURL=Episode-6.aa436662.css.map */
